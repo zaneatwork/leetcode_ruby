@@ -14,5 +14,5 @@ bundle install
 
 Then you can run the tests via rake:
 ```
-rake test
+bundle rake test
 ```
