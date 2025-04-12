@@ -5,13 +5,14 @@ Some afterhours practice using Ruby and related tooling (rspec, rubocop, etc.)
 
 Problems correspond to a [LeetCode](https://leetcode.com/problems/) problem number.
 
-Tests verify correctness of the answer and are run with Rspec. Install Rspec with:
+Tests verify correctness of the answer and are run with Rspec.
 
+Install dependencies via:
 ```
-gem install rspec
+bundle install
 ```
 
-Then you can run the tests via:
+Then you can run the tests via rake:
 ```
-rspec
+rake test
 ```
